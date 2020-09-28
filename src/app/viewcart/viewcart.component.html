@@ -1,0 +1,29 @@
+<table border="1px" width="100%">
+    <thead>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Image</th>
+        <th>Quantity</th>
+        <th></th>
+    </thead>
+    <tr *ngFor="let product of mycartitems">
+        <td>{{product.name}}</td>
+    
+        <td>{{product.price}}</td>
+    
+        <td><img width="100px" height="100px" src="{{product.image}} "></td>
+
+        <td>{{product.quantity}} &nbsp; <button class="btn btn-primary" (click)="incQuantity(product)">+</button> &nbsp; <button class="btn btn-primary" (click)="decQuantity(product)">-</button></td>
+
+        <td><button class="btn btn-primary" (click)="delete(product)">Delete</button></td> 
+    </tr>
+    
+</table>
+<br><br>
+<p>Total= {{total}}
+    <br><br>
+    <button class="btn btn-primary">Buy Now</button>
+</p>
+
+
+    

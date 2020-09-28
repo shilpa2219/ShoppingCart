@@ -1,0 +1,26 @@
+[
+    {
+        "pid":101,
+        "name":"Laptop",
+        "price":48000,
+        "image":"../assets/images/laptop.jpeg",
+        "quantity":1
+    
+    },
+    {
+        "pid":102,
+        "name":"Mobile Phone",
+        "price":32000,
+        "image":"../assets/images/mobile.jpeg",
+        "quantity":1
+    
+    },
+    {
+        "pid":103,
+        "name":"Headset",
+        "price":1999,
+        "image":"../assets/images/headset.jpeg",
+        "quantity":1
+    
+    }
+]
